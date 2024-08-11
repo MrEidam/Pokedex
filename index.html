@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <div id="content-box">
+        <div id="pokemon-info">
+            <h1 id="pokemon-name"></h1>
+            <img src="" alt="" id="pokemon-img">
+            <div id="pokemon-types"><span class="type-box grass">GRASS</span><span class="type-box poison">POISON</span></div>
+            <div id="pokemon-description"></div>
+        </div>
+        <article>
+            <input type="text" id="search" onkeyup="search()" placeholder="Search.." title="Type in a category">
+            <div id="pokemon-list"></div>
+        </article>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
